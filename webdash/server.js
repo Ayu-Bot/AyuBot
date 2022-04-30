@@ -135,3 +135,4 @@ function isAuth(req, res, next) {
 	res.redirect('/auth/login');
 }
 //app.listen(3000);
+//require mongodb
