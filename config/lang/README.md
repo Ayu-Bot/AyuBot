@@ -17,7 +17,7 @@ Join our [Crowdin](https://crowdin.com/project/ayu-bot)!
 ### Italian
 - [Lori28167](https://github.com/Lori28167)
 
-### Germany
+### German
 - [TonehDev](https://github.com/TonehDev)
 
 ### Turkish
