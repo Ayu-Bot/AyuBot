@@ -1,0 +1,72 @@
+{
+		 "ping": {
+			 "text": "My cuwwent pwing is {ping} MS >.<"
+		 },
+		"help": {
+			"title": ":question: • Help >.<",
+			"description": "Need help? Jowoin my [Discord server](https://discord.gg/BzJn5Je)! >.<\nCommands:",
+			"fields": [{
+				"name": "<:emoji_4:700116823542202378> • Modewation",
+				"value": "`ban,kick,timeout`"
+			}, {
+				"name": "<:emoji_5:700116865116012615> • omg Fun !!!",
+				"value": "`bird, cat, dog`"
+			}, {
+				"name": "<:nikki:739995169671217203> • Econowomy",
+				"value": "`coins, work`"
+			 }, {
+				"name": "<:emoji_7:700117276434759800> • Settings",
+				"value": "`dashboard, setlang`"
+			 }, {
+				"name": ":info: • Infowmation",
+				"value": "`help, info <server>, ping`"
+			 }
+			]
+		},
+		"info": {
+			"server": {
+				"error": {
+					"text": "[OOPSIE WOOPSIE] I couldn't find the sewvew in my databasey, run the command again!!! >.<"
+				},
+				"field": [{"name": "Server Description", "value": "{description}"}, {
+					"name":"Date cweated", "value": "{date} >.<"
+				}]
+			}
+		},
+		"work": {
+			"error": {
+				"text": "oopsie woopsie, It looks like you haven't rwegisterwed yet, pls trwy the command again >.<"
+			},
+			"success": {
+				"text": ":money_with_wings: | :O you won ${money} >.<"
+			}
+		},
+		"bal": {
+			"error": {
+				"text": "[OOPSIE WOOPSIE] User is not rwegisterewd >.<"
+			},
+			"success": {
+				"text": ":moneybag: | {member} has ${money} >.<"
+			}
+		},
+		"setlang": {
+			"success": {
+				"text": "Languwage changed! >.<"
+            }
+		},
+	"ban": {
+			"success": {
+				"text": "📛 | {member} has been successfuwwy banned!!!! >.<"
+			},
+			"error": {
+			  "permissions": {
+					"text": "[OOPSIE WOOPSIE] You cannot use this command because its only for ADMINs and USEWS with ``BAN_MEMBERS`` permission!!! >:(",
+					"text2": "[OOPSIE WOOPSIE] I cawn't execute this command because I down't have ``BAN_MEMBERS`` permission! >:("
+				},
+				"text": "[OOPSIE WOOPSIE] I cawn't ban you >:(",
+				"text2": "[OOPSIE WOOPSIE] I couwdn't find the user, check if everything is correct >:(",
+				"text3": "[OOPSIE WOOPSIE] Couwd not ban user >:("
+			}
+		}
+
+	}
