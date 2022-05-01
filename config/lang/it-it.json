@@ -56,16 +56,16 @@
 		},
 	"ban": {
 			"success": {
-				"text": "📛 | {member} has been successfully banned!"
+				"text": "📛 | {member} è stato bannato con successo"
 			},
 			"error": {
 			  "permissions": {
-					"text": "[ERROR] You cannot use this command only ADMINs and users with ``BAN_MEMBERS`` permission!",
-					"text2": "[ERROR] I can't execute this command because I don't have ``BAN_MEMBERS`` permission!"
+					"text": "[ERROR] Tu non puoi usare il comando solo gli ADMIN e gli utenti con il seguente permesso ``BAN_MEMBERS`` !",
+					"text2": "[ERRORE] Non posso eseguire il comando perché non ho il seguente permesso ``BAN_MEMBERS`` !"
 				},
-				"text": "I can't ban you",
-				"text2": "[ERROR] I couldn't find the user, check if everything is correct.",
-				"text3": "[ERROR] Could not ban user"
+				"text": "Non posso bannarti",
+				"text2": "[ERRORE] Non riesco a trovare l'utente, controlla se tutto è corretto.",
+				"text3": "[ERRORE] Non posso bannare l'utente"
 			}
 		}
 
