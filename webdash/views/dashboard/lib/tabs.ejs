@@ -1,15 +1,15 @@
-<nav class="fixed w-full portrait:top-0 landscape:bottom-0 border-b border-gray-700 bg-slate-900 backdrop-blur-sm transition-all">
-	<div class="tabs overflow-x-scroll snap-x ">
+<nav class="fixed w-full top-0 landscape:bottom-0 border-b border-gray-700 bg-slate-900/30 backdrop-blur-sm transition-all">
+	<div class="tabs">
 	<ul
-		class="flex justify-center -mb-px"
+		class="flex overflow-x-scroll snap-x justify-center -mb-px"
 		id="myTab"
 		data-tabs-toggle="#myTabContent"
 		role="tablist"
 	>
-		<li class="mr-2" role="presentation">
+		<li class="ml-10 lg:ml-0 mr-2 snap-start snap-always" role="presentation">
 		
 			<button
-				class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-400 bg-inherit rounded-t-lg border-transparent hover:text-gray-300 hover:border-gray-300 active transition-all duration-500 ease-in-out"
+				class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-400 bg-inherit rounded-t-lg border-b-2 hover:text-gray-300 hover:border-gray-300 active transition-all duration-500 ease-in-out"
 				id="geral-tab"
 				data-tabs-target="#geral"
 				type="button"
@@ -22,17 +22,11 @@
 			</button>
 		</li>
 		<li
-			class="mr-2"
-			id="setting-tab"
-			data-tabs-target="#setting"
-			type="button"
-			role="tab"
-			aria-controls="setting"
-			aria-selected="false"
+			class="mr-2 scroll-ml-6 snap-start snap-always"
 			role="presentation"
 		>
 			<button
-				class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-400 bg-inherit rounded-t-lg border-transparent hover:text-gray-300 hover:border-gray-300 transition-all duration-500 ease-in-out"
+				class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-400 bg-inherit rounded-t-lg border-b-2 hover:text-gray-300 hover:border-gray-300 transition-all duration-500 ease-in-out"
 				id="setting-tab"
 				data-tabs-target="#setting"
 				type="button"
@@ -44,9 +38,9 @@
 				Configurações
 			</button>
 		</li>
-		<li class="mr-2" role="presentation">
+		<li class="mr-2 scroll-ml-6 snap-start snap-always" role="presentation">
 			 <button
-				class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-400 bg-inherit rounded-t-lg border-transparent hover:text-gray-300 hover:border-gray-300 transition-all duration-500 ease-in-out"
+				class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-400 bg-inherit rounded-t-lg border-b-2 hover:text-gray-300 hover:border-gray-300 transition-all duration-500 ease-in-out"
 				id="system-tab"
 				data-tabs-target="#system"
 				type="button"
@@ -58,9 +52,9 @@
 			  Funções
 			 </button>
 		</li>
-		<li class="mr-2" role="presentation">
+		<li class="mr-2 scroll-ml-6 snap-start snap-always" role="presentation">
 			 <button
-				class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-400 bg-inherit rounded-t-lg border-transparent hover:text-gray-300 hover:border-gray-300 transition-all duration-500 ease-in-out"
+				class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-400 bg-inherit rounded-t-lg border-b-2 hover:text-gray-300 hover:border-gray-300 transition-all duration-500 ease-in-out"
 				id="danger-tab"
 				data-tabs-target="#danger"
 				type="button"
@@ -69,14 +63,14 @@
 				aria-selected="false"
 				for="r3"
 			>
-			  Zona perigosa
+			  Perigoso
 			 </button>
 		</li>
 		<div id='slider'></div>
 	 </ul>
 	</div>
 </nav>
-<div class="mt-20 bg-slate-900 lg:md-0" id="myTabContent">
+<div class="pt-12 bg-slate-900 lg:pt-0 lg:md-0" id="myTabContent">
 	<%-include('./toast.ejs')%>
 <div class="p-4 transition-all" id="geral" role="tabpanel" aria-labelledby="geral-tab">
  <%-include('./geral.ejs');%>

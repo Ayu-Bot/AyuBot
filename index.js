@@ -86,7 +86,7 @@ client.once('ready', () => {
 	setInterval(time, 16000)
 	function time() {
 		console.log("Online à " + ms(client.uptime))
-		// client.user.setActivity(`Estou online à ${ms(client.uptime)}`)
+		client.user.setActivity(`Prefixo: /`)
 	}
 	time()
 

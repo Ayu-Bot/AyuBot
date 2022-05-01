@@ -1,0 +1,83 @@
+{
+		"ping": {
+				"text": "Mein aktueller Ping ist {ping} MS"
+		},
+		"help": {
+				"title": ":question: • Hilfe",
+				"description": "Brauchst du Hilfe? Trete meinem [Discord Server](https://discord.gg/BzJn5Je)!\nBefehle:",
+				"fields": [
+						{
+								"name": "<:emoji_4:700116823542202378> • Moderation",
+								"value": "`ban,kick,timeout`"
+						},
+						{
+								"name": "<:emoji_5:700116865116012615> • Spaß",
+								"value": "`bird, cat, dog`"
+						},
+						{
+								"name": "<:nikki:739995169671217203> • Ökonomie",
+								"value": "`coins, work`"
+						},
+						{
+								"name": "<:emoji_7:700117276434759800> • Einstellungen",
+								"value": "\"Dashboard, setlang\""
+						},
+						{
+								"name": ":info: • Informationen",
+								"value": "`help, info <server>, ping`"
+						}
+				]
+		},
+		"info": {
+				"server": {
+						"error": {
+								"text": "[Fehler] Ich konnte den Server in meiner Datenbank nicht finden, führe ihn erneut aus!"
+						},
+						"field": [
+								{
+										"name": "Server-Beschreibung",
+										"value": "{description}"
+								},
+								{
+										"name": "Erstellungsdatum",
+										"value": "{date}"
+								}
+						]
+				}
+		},
+		"work": {
+				"error": {
+						"text": "Es sieht so aus, als hätten Sie sich noch nicht registriert. Versuche den Befehl erneut."
+				},
+				"success": {
+						"text": ":money_with_wings: | Du hast ${money} gewonnen"
+				}
+		},
+		"bal": {
+				"error": {
+						"text": "[FEHLER] Benutzer ist nicht registriert"
+				},
+				"success": {
+						"text": ":moneybag: | {member} besitzt ${money}"
+				}
+		},
+		"setlang": {
+				"success": {
+						"text": "Sprache geändert!"
+				}
+		},
+		"ban": {
+				"success": {
+						"text": ":name_badge: | {member} wurde erfolgreich gebannt!"
+				},
+				"error": {
+						"permissions": {
+								"text": "[FEHLER] Du kannst diesen Befehl nicht benutzen, nur ADMINs und Benutzer mit der ``BAN_MEMBERS`` Berechtigung!",
+								"text2": "[FEHLER] Ich kann diesen Befehl nicht ausführen, da ich nicht die ``BAN_MEMBERS`` Berechtigung habe!"
+						},
+						"text": "Ich kann dich nicht bannen",
+						"text2": "[FEHLER] Ich konnte den Benutzer nicht finden, schaue nach, ob alles stimmt.",
+						"text3": "[FEHLER] Benutzer konnte nicht gebannt werden"
+				}
+		}
+}
