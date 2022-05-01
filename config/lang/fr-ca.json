@@ -1,0 +1,83 @@
+{
+		"ping": {
+				"text": "Mon ping actuel est de {ping} MS"
+		},
+		"help": {
+				"title": ":question: • Aide",
+				"description": "Besoin d'aide ? Rejoignez mon [serveur Discord](https://discord.gg/BzJn5Je)!\nCommandes :",
+				"fields": [
+						{
+								"name": "<:emoji_4:700116823542202378> • Modération",
+								"value": "`ban,kick,timeout`"
+						},
+						{
+								"name": "<:emoji_5:700116865116012615> • Fun",
+								"value": "`oiseau, chat, chien`"
+						},
+						{
+								"name": "<:nikki:739995169671217203> • Économie",
+								"value": "`pièces, travail`"
+						},
+						{
+								"name": "<:emoji_7:700117276434759800> • Paramètres",
+								"value": "`tableau de bord, setlang`"
+						},
+						{
+								"name": ":info: • Information",
+								"value": "`aide, info <server>, ping`"
+						}
+				]
+		},
+		"info": {
+				"server": {
+						"error": {
+								"text": "[Error] Je n'ai pas pu trouver le serveur dans ma base de données, exécutez-le à nouveau !"
+						},
+						"field": [
+								{
+										"name": "Description du serveur",
+										"value": "{description}"
+								},
+								{
+										"name": "Date de création",
+										"value": "{date}"
+								}
+						]
+				}
+		},
+		"work": {
+				"error": {
+						"text": "Il semble que vous ne vous êtes pas encore enregistré, essayez la commande à nouveau."
+				},
+				"success": {
+						"text": ":money_with_wings: | Vous avez gagné ${money}"
+				}
+		},
+		"bal": {
+				"error": {
+						"text": "[ERROR] L'utilisateur n'est pas enregistré"
+				},
+				"success": {
+						"text": ":moneybag: | {member} a ${money}"
+				}
+		},
+		"setlang": {
+				"success": {
+						"text": "Langue modifiée !"
+				}
+		},
+		"ban": {
+				"success": {
+						"text": ":name_badge: | {member} a été banni avec succès !"
+				},
+				"error": {
+						"permissions": {
+								"text": "[ERROR] Vous ne pouvez pas utiliser cette commande uniquement des ADMINs et des utilisateurs avec la permission ``BAN_MEMBERS`` !",
+								"text2": "[ERROR] Je ne peux pas exécuter cette commande car je n'ai pas la permission ``BAN_MEMBERS`` !"
+						},
+						"text": "Je ne peux pas vous bannir",
+						"text2": "[ERROR] Je n'ai pas pu trouver l'utilisateur, vérifiez si tout est correct.",
+						"text3": "[ERROR] Impossible de bannir l'utilisateur"
+				}
+		}
+}
