@@ -1,12 +1,12 @@
 # Ayu bot
-Open source para pessoas ajudarem a arrumar bugs e etc!
-- Essa é uma open source do bot [Ayu]().
+Open source for people to help fix bugs and etc!
+- This is an open source bot [Ayu](https://ayubot.tech).
 
-# Contribua esse projeto!
-Venha contribuir o projeto de Ayu, mas leia abaixo:
+# Contribute this project!
+Come and contribute to Ayu's project, but read below:
 
 <details>
-  <summary>Requisitos
+  <summary>Requirements
   </summary>
   <ul>
     <li>
@@ -95,7 +95,7 @@ Venha contribuir o projeto de Ayu, mas leia abaixo:
     </li>
     <li>
      <details>
-        <summary>Outros
+        <summary>Others
         </summary>
         <table>
           <thead>
@@ -127,35 +127,35 @@ Venha contribuir o projeto de Ayu, mas leia abaixo:
 </details>
 
 <details>
-  <summary>Como iniciar</summary>
+  <summary>How to start</summary>
   
-  # Primeiros passos
-  Como primeiro passos, você irá clonar esse projeto, escreva em seu terminal o seguinte comando:
+  # First steps
+  As a first step, you will clone this project, write the following command in your terminal:
   ```shell
    $ git clone https://github.com/Ayu-Bot/AyuBot.git
    $ cd AyuBot
   ```
-  Após isso, você irá executar os seguintes comando:
+  After that, you will run the following command:
   ```shell
    $ npm init
    $ npm i
   ```
-  Agora, para iniciar o projeto, execute:
+  Now, to start the project, run:
   ```shell
    $ npm start
   ```
   
-  # Informação adicional
-  - A dashboard provavelmente estará rodando na porta [`3000`](http://localhost:3000)
-  - Não esqueça de preencher o arquivo `.env`
+  # Additional information
+  - The dashboard will probably be running on port [`3000`](http://localhost:3000)
+  - Don't forget to fill in the `.env` file
 </details>
 
 ---
 
-# Outras informações
-[Política de Privacidade](https://docs.ayubot.tech/diretrizes/privacy-policy)
+# Other informations
+[Privacy Policy](https://docs.ayubot.tech/diretrizes/privacy-policy)
 
-[Termos de Uso](https://docs.ayubot.tech/diretrizes/termos-de-uso)
+[Terms of use](https://docs.ayubot.tech/diretrizes/termos-de-uso)
 
 
 ### © All rights reserved by Ayu Team
