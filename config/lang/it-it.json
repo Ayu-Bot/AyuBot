@@ -18,7 +18,11 @@
                "name": "<:emoji_7:700117276434759800> • Settings",
                "value": "`dashboard, setlang`"
             }, {
-               "name": ":info: • I[ERROR] 
+               "name": ":info: • Informazioni",
+               "value": "`help, info <server>, ping`"
+            }
+           ]
+       },
        "info": {
            "server": {
                "error": {
