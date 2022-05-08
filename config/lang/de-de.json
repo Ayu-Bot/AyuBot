@@ -75,9 +75,9 @@
 								"text": "[FEHLER] Du kannst diesen Befehl nicht benutzen, nur ADMINs und Benutzer mit der ``BAN_MEMBERS`` Berechtigung!",
 								"text2": "[FEHLER] Ich kann diesen Befehl nicht ausführen, da ich nicht die ``BAN_MEMBERS`` Berechtigung habe!"
 						},
-						"text": "Ich kann dich nicht bannen",
+						"text": "[ERROR] Ich kann dich nicht bannen.",
 						"text2": "[FEHLER] Ich konnte den Benutzer nicht finden, schaue nach, ob alles stimmt.",
-						"text3": "[FEHLER] Benutzer konnte nicht gebannt werden"
+						"text3": "[FEHLER] Benutzer konnte nicht gebannt werden."
 				}
 		}
 }
