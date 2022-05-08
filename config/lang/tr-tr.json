@@ -75,9 +75,9 @@
                 "text": "[Hata] Bu komudu kullanamazsın, sadece adminler ve ``BAN_MEMBERS`` izni olan kişiler kullanabilir!",
                 "text2": "[Hata] ``BAN_MEMBERS`` iznim olmadığı için bu kişiyi banlayamıyorum!"
             },
-            "text": "Seni banlayamıyorum",
+            "text": "[ERROR] Seni banlayamıyorum.",
             "text2": "[Hata] Bu kullanıcıyı bulamıyorum, herşeyin doğru olduğundan emin ol.",
-            "text3": "[Hata] Kullanıcı banlanamadı"
+            "text3": "[Hata] Kullanıcı banlanamadı."
         }
     }
 }

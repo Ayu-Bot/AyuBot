@@ -9,7 +9,7 @@ module.exports = {
 			option.setName('lang')
 				.setDescription('Linguagem')
 				.setRequired(true)
-				.addChoices({ name: 'English', value: 'en-us' }, { name: 'Português Brasileiro', value: 'pt-br' }, { name: 'Italiano', value: 'it-it' }, { name: "Türkçe", value: "tr-tr" }, { name: "UwU English", value: "en-uwu" }, { name: "Deutsch", value: "de-de" }, { name: "Français Canadien", value: "fr-ca" })
+				.addChoices({ name: 'English', value: 'en-us' }, { name: 'Português Brasileiro', value: 'pt-br' }, { name: 'Italiano', value: 'it-it' }, { name: "Türkçe", value: "tr-tr" }, { name: "UwU English", value: "en-uwu" }, { name: "Deutsch", value: "de-de" }, { name: "Français", value: "fr-fr" })
 		),
 
 	async execute(client, interaction) {

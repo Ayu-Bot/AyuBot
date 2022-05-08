@@ -18,11 +18,7 @@
                "name": "<:emoji_7:700117276434759800> • Settings",
                "value": "`dashboard, setlang`"
             }, {
-               "name": ":info: • Informazioni",
-               "value": "`help, info <server>, ping`"
-            }
-           ]
-       },
+               "name": ":info: • I[ERROR] 
        "info": {
            "server": {
                "error": {
@@ -63,9 +59,9 @@
 					"text": "[ERROR] Tu non puoi usare il comando solo gli ADMIN e gli utenti con il seguente permesso ``BAN_MEMBERS`` !",
 					"text2": "[ERRORE] Non posso eseguire il comando perché non ho il seguente permesso ``BAN_MEMBERS`` !"
 				},
-				"text": "Non posso bannarti",
+				"text": "[ERROR] Non posso bannarti.",
 				"text2": "[ERRORE] Non riesco a trovare l'utente, controlla se tutto è corretto.",
-				"text3": "[ERRORE] Non posso bannare l'utente"
+				"text3": "[ERRORE] Non posso bannare l'utente."
 			}
 		}
 
