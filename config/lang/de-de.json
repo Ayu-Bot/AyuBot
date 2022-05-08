@@ -1,6 +1,6 @@
 {
 		"ping": {
-				"text": "Mein aktueller Ping ist {ping} MS"
+				"text": "Mein aktueller Ping ist `{ping}`ms"
 		},
 		"help": {
 				"title": ":question: • Hilfe",
