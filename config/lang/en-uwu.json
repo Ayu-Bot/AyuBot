@@ -1,6 +1,6 @@
 {
 		 "ping": {
-			 "text": "My cuwwent pwing is {ping} MS >.<"
+			 "text": "My cuwwent pwing is `{ping}`ms >.<"
 		 },
 		"help": {
 			"title": ":question: • Help >.<",
