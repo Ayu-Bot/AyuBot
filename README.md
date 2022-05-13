@@ -158,4 +158,7 @@ Come and contribute to Ayu's project, but read below:
 [Terms of use](https://docs.ayubot.tech/diretrizes/termos-de-uso)
 
 
+# Project Archived
+This project is being recreated in another repository 
+
 ### © All rights reserved by Ayu Team
